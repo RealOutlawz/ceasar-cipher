@@ -3,7 +3,6 @@ string = gets.chomp
 print "Enter your desired shift: "
 shift = gets.to_i
 
-
 def caesar_cipher(str, shift_num)
   track_capitals_array = []
   track_non_alpha = {}
